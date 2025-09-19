@@ -1,5 +1,6 @@
 #Braden phetsarath
 #9/18
+#Shipping cost by weight
 # Programming Excersize 3-13
 
 # The Fast Freight Shipping Company charges the following rates:
