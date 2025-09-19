@@ -1,3 +1,6 @@
+#Braden Phetsarath 
+#9/18
+#pseudo code and age catagory 
 #get input : Person's age
 #display age
 #if age is in range 1 or less
@@ -21,9 +24,10 @@ def categorize_age(age):
     ######################
     # WRITE YOUR CODE HERE
     if age <= 1: ageCategory = "infant"
-    if age >= 1 and age < 13: ageCategory = "child"
-    if age >= 13 and age <20: ageCategory = "Teenager"
-    if age >= 20: ageCategory ="adult"
+    elif age >= 1 and age < 13: ageCategory = "child"
+    elif age >= 13 and age <20: ageCategory = "Teenager"
+    else age >= 20: ageCategory ="adult"
+    #if , elif, else because of only one condition being possible at a time
     ######################
 
 
